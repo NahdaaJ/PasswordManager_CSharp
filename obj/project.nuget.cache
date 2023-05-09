@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GkD3b6xW6KszY++JYw0nuA2GwbrdrZk9qKhNGqzZA84jrJRMM284RHk5ruEGlyLaCPPIw2zOPHjC3l41hRyLLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nahdaa\\Documents\\Projects\\MySQL_PasswordManager\\MySQL_PasswordManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nahdaa\\.nuget\\packages\\mysqlconnector\\2.2.6\\mysqlconnector.2.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}
