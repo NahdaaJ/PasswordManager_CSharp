@@ -84,8 +84,8 @@ You will then need to create a database in you localhost called "passwordmanager
 2. Once you have opened the repository or file in Visual Studio, set your master username and password in the `MasterPassword()` class, line 8 and 9.
 3. Enter your name in `Program()` class line 39.
 4. Change the `password=YourPasswordHere` in the `Passwords()` class line 10, `MasterPassword()` class line 10 and `CheckDB()` class line 8. Change it to the password you have set for your localhost MySQL.
-5. Find the full path of the file “MySQL_PasswordManager.exe”, the path should look something like this `C:\Users\YourName\Downloads\MySQL_PasswordManager\bin\Release\net6.0\MySQL_PasswordManager.exe`. You can move the file if you like, just remember the path.
-6. Either copy and paste the path in the command prompt, or navigate to the specific file, and the program will run.
+5. Find the file “MySQL_PasswordManager.exe”, the path should look something like this `C:\Users\YourName\Downloads\MySQL_PasswordManager\bin\Release\net6.0\MySQL_PasswordManager.exe`. You can move the file if you like.
+6. Create a shortcut to the `MySQL_PasswordManager.exe` file, and move the shortcut to your desktop.
 
 ## Challenges
 ### Problem
