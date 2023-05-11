@@ -13,6 +13,11 @@
           </ul>
       </ul>        
     <li><a href="#built-with">Built With</a></li>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a>
+        <li><a href="#steps">Steps</a>
+      </ul>
     <li><a href="#challenges">Challenges</a></li>
     <li><a href="#future-changes">Future Changes</a></li>
     <li><a href="#contact">Contact</a>
@@ -68,6 +73,19 @@ This project was built using the following technologies and languages:
 - .NET
 - Microsoft Visual Studio
 - MySQL
+
+## Installation
+### Prerequisites
+You will need to install Microsofot Visual Studio and MySQL.
+You will then need to create a database in you localhost called "passwordmanagerdb", and create tables "passwords" and "login_attempts".
+
+### Steps
+1. Download the project file or open with Visual Studio (both options found in <> Code).
+2. Once you have opened the repository or file in Visual Studio, set your master username and password in the `MasterPassword()` class, line 8 and 9.
+3. Enter your name in `Program()` class line 39.
+4. Change the `password=YourPasswordHere` in the `Passwords()` class line 10, `MasterPassword()` class line 10 and `CheckDB()` class line 8. Change it to the password you have set for your localhost MySQL.
+5. Find the full path of the file “MySQL_PasswordManager.exe”, the path should look something like this `C:\Users\YourName\Downloads\MySQL_PasswordManager\bin\Release\net6.0\MySQL_PasswordManager.exe`. You can move the file if you like, just remember the path.
+6. Either copy and paste the path in the command prompt, or navigate to the specific file, and the program will run.
 
 ## Challenges
 ### Problem
